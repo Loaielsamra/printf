@@ -5,7 +5,9 @@
 #include <stdlib.h>
 
 /**
- * struct specifier - defines struct for conevrsion specifiers
+ * struct specifiers - defines struct for conevrsion specifiers
+ * @letter: specifier letter
+ * @function: corresponding function to letter
  */
 struct specifiers
 {
